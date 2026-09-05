@@ -4,7 +4,7 @@ A 10-question discovery questionnaire for scoping a new application project.
 
 ## What this repo is
 
-This repo hosts a single markdown file: [`10 Questions to help you build an app.md`](./10%20Questions%20to%20help%20you%20build%20an%20app.md). It is a lightweight requirements-discovery framework — answer the ten questions to align stakeholders and guide early technical decisions (platform, language, must-have MVP features, integrations, data, security, UX tone, scale, and budget/timeline).
+This repo's primary artifact is the questionnaire: [`10 Questions to help you build an app.md`](./10%20Questions%20to%20help%20you%20build%20an%20app.md). It is a lightweight requirements-discovery framework — answer the ten questions to align stakeholders and guide early technical decisions (platform, language, must-have MVP features, integrations, data, security, UX tone, scale, and budget/timeline).
 
 ## How to use it
 
