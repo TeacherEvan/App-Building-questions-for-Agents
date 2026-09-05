@@ -1,0 +1,20 @@
+# V2 surgical-implementation scratch (audit artifacts live here)
+docs/.scratch-audit/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Build / deps (defensive; this repo has none today)
+node_modules/
+dist/
+build/
+*.log
+
+# Snapshots-for-AI extension auto-state
+.snapshots/cache/
