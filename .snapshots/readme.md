@@ -1,5 +1,8 @@
 # Snapshots Directory
 
+**Version:** 1.0.0  
+**Last updated:** 2026-09-05  
+
 This directory contains snapshots of your code for AI interactions. Each snapshot is a markdown file that includes relevant code context and project structure information.
 
 ## What's included in snapshots?
