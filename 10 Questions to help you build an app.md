@@ -97,7 +97,7 @@ This 10-question framework helps define clear requirements for any software proj
 - "Expect viral spikes—handle 100k concurrent users for live trivia."
 - "Internal tool for 50 employees—latency under 1s, nothing fancy."
 
-### Q10. Budget, timeline, and post-launch maintenance—what's realistic?
+### Q10. Budget, timeline, and post-launch maintenance — what's realistic?
 
 **Why we ask:** Aligns scope with resources and clarifies ongoing responsibilities.
 

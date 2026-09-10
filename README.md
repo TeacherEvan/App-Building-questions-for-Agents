@@ -40,4 +40,4 @@ The questionnaire is intended to be usable by both humans and AI coding assistan
 
 ## License
 
-No `LICENSE` file is present. Unless the author adds one, reuse is at your own risk — please ask before redistributing.
+This repo is licensed under the [MIT licence](LICENSE) (c) 2026 TeacherEvan. See `LICENSE` for the full text.
