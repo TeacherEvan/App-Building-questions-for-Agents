@@ -17,9 +17,13 @@ This repo's primary artifact is the questionnaire: [`10 Questions to help you bu
 
 | Path | What it is |
 |------|------------|
-| `10 Questions to help you build an app.md` | The questionnaire (the actual artifact). |
+| `10 Questions to help you build an app.md` | Legacy root-level questionnaire (kept for backward-compatible inbound links; canonical content now lives at `docs/QUESTIONNAIRE.md`). |
+| `CONTRIBUTING.md` | How to add, edit, or refine a question; style guide and contribution workflow. |
+| `LICENSE` | MIT licence, © 2026 TeacherEvan. |
+| `README.md` | This file — entry point: title, contents, links, how to use. |
 | `.snapshots/` | Third-party configuration and docs for the **Snapshots-for-AI** VSCode/Cursor extension by [GBTI Network](https://gbti.network). It is auto-managed by the extension; this repo does not own or maintain it. |
-| `LICENSE` | Not present — author license intent is unspecified. Treat content as all-rights-reserved unless the author clarifies otherwise. |
+| `docs/QUESTIONNAIRE.md` | Canonical 10-question discovery framework. |
+| `docs/INDEX.md` | Documentation index: every markdown file in this repo, with a one-line summary. |
 | `docs/.scratch-audit/` | Internal V2 governance run artifacts (gitignored, ephemeral). |
 
 ## Contributing
