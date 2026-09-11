@@ -54,9 +54,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- Stripe for payments, Google Maps for geocoding, Twilio for SMS.
+- "Stripe for payments, Google Maps for geocoding, Twilio for SMS."
 - "No external APIs; everything must run offline (military use-case)."
-- OpenAI for text generation + Cloudinary for media storage.
+- "OpenAI for text generation + Cloudinary for media storage."
 
 ### Q6. How should data be stored and synced?
 
