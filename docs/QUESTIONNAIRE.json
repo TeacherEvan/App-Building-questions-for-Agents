@@ -1,0 +1,127 @@
+{
+  "title": "Application Discovery Questionnaire",
+  "overview": "This 10-question framework helps define clear requirements for any software project. Answer these questions to align stakeholders and guide development decisions.",
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "What problem does your application solve, and who feels that pain the most?",
+      "why": "Defines the core value proposition and primary users.",
+      "examples": [
+        "Dog-walkers struggle to track multiple clients; my app will auto-schedule routes for walkers with >10 dogs per day.",
+        "University students can't find last-minute study rooms; the app aggregates real-time room availability."
+      ]
+    },
+    {
+      "id": "Q2",
+      "question": "On which devices and platforms should the first version run?",
+      "why": "Narrows the tech stack and design constraints.",
+      "examples": [
+        "iOS and Android phones only\u2014tablets and desktop later.",
+        "Any modern browser; must work on low-end Chromebooks.",
+        "Desktop VR headset (Meta Quest 3) plus a slim companion mobile app."
+      ]
+    },
+    {
+      "id": "Q3",
+      "question": "Which scripting/programming language(s) do you prefer, and why?",
+      "why": "Aligns with existing team skill, hosting options, and library ecosystems.",
+      "examples": [
+        "Python \u2013 \"Rapid prototyping, huge AI libraries, fine if server-side only.\"",
+        "JavaScript/TypeScript \u2013 \"Runs in browsers and Node.js, single language front-to-back.\"",
+        "Kotlin \u2013 \"Modern, null-safe; I expect tight Android integration.\"",
+        "No strong preference\u2014recommend what fits my budget."
+      ]
+    },
+    {
+      "id": "Q4",
+      "question": "List the must-have features for the MVP (Minimum Viable Product)?",
+      "why": "Prevents scope creep; anchors the first release.",
+      "examples": [
+        "User login with Google, basic profile, create/read/update/delete notes, and share a note via link.",
+        "GPS route tracking, step counter, calorie estimate, and weekly summary email.",
+        "Upload 1-minute video, auto-generate captions, allow simple trim, then publish."
+      ]
+    },
+    {
+      "id": "Q5",
+      "question": "Which third-party services or APIs should we integrate with (if any)?",
+      "why": "Determines licensing cost, data flow, and potential vendor lock-in.",
+      "examples": [
+        "Stripe for payments, Google Maps for geocoding, Twilio for SMS.",
+        "No external APIs; everything must run offline (military use-case).",
+        "OpenAI for text generation + Cloudinary for media storage."
+      ]
+    },
+    {
+      "id": "Q6",
+      "question": "How should data be stored and synced?",
+      "why": "Guides database choice, offline strategy, and security controls.",
+      "examples": [
+        "Cloud-only, PostgreSQL on Supabase.",
+        "Real-time collaboration\u2014need Firebase Firestore-style live updates."
+      ]
+    },
+    {
+      "id": "Q7",
+      "question": "What level of security, privacy, or compliance is required?",
+      "why": "Impacts architecture, hosting region, and audit features.",
+      "examples": [
+        "Must be HIPAA-compliant; patient data encrypted in transit and at rest.",
+        "Consumer social app\u2014standard OAuth, no special compliance.",
+        "European customers only\u2014GDPR data-deletion workflow mandatory."
+      ]
+    },
+    {
+      "id": "Q8",
+      "question": "How should the user interface feel (style, tone, accessibility)?",
+      "why": "Sets design language and accessibility targets.",
+      "examples": [
+        "Minimalistic, monochrome, like Notion; AA accessibility at least.",
+        "Playful neon cyber-punk with motion effects; WCAG can be AA except AAA contrast not needed.",
+        "Enterprise dashboard: dense tables, light mode only, Excel import vibes."
+      ]
+    },
+    {
+      "id": "Q9",
+      "question": "What are your performance or scalability expectations for the first year?",
+      "why": "Determines hosting tier, caching, and cost planning.",
+      "examples": [
+        "Pilot with 500 beta users; uptime 99% is fine.",
+        "Expect viral spikes\u2014handle 100k concurrent users for live trivia.",
+        "Internal tool for 50 employees\u2014latency under 1s, nothing fancy."
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Budget, timeline, and post-launch maintenance \u2014 what's realistic?",
+      "why": "Aligns scope with resources and clarifies ongoing responsibilities.",
+      "examples": [
+        "$15k MVP budget, 3-month build, then $500/month for updates.",
+        "Open-source passion project\u2014volunteer devs, slow timeline.",
+        "VC-backed: up to $250k this year, need v1 in 10 weeks, full-time dev retainer after."
+      ]
+    }
+  ],
+  "using_the_responses": {
+    "next_steps": [
+      "Document Requirements \u2192 Drop answers into a shared doc and distill into functional + non-functional requirements",
+      "Design Architecture \u2192 Sketch an architecture and tech stack diagram that satisfies Q2\u2013Q7",
+      "Create Roadmap \u2192 Derive a phased roadmap from Q4, Q9, and Q10",
+      "Validate \u2192 Confirm with the client before writing any code"
+    ],
+    "deliverables_checklist": [
+      "Requirements document (functional & non-functional)",
+      "Architecture diagram",
+      "Tech stack decision matrix",
+      "Development roadmap with milestones",
+      "Budget breakdown and resource allocation",
+      "Maintenance plan post-launch",
+      "User interface mockups or style guide",
+      "Testing strategy (unit, integration, user acceptance)",
+      "Deployment plan (CI/CD, hosting)"
+    ]
+  },
+  "source": "docs/QUESTIONNAIRE.md",
+  "generated": "2026-09-12",
+  "note": "Structured mirror of the canonical prose. All question text, why-lines, and example answers are copied verbatim. The canonical markdown remains the single source of truth."
+}

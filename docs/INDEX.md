@@ -12,6 +12,7 @@ Every markdown file in this repository, with a one-line summary.
 ## docs/
 
 - [`docs/QUESTIONNAIRE.md`](QUESTIONNAIRE.md) — canonical 10-question framework
+- [`docs/QUESTIONNAIRE.json`](QUESTIONNAIRE.json) — structured JSON mirror of the canonical framework (agent-facing)
 - [`docs/INDEX.md`](INDEX.md) — this file
 
 ## .snapshots/

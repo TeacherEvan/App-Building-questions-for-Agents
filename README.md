@@ -18,6 +18,7 @@ This repo's primary artifact is the questionnaire: [`docs/QUESTIONNAIRE.md`](doc
 8. [Q8. How should the user interface feel (style, tone, accessibility)?](docs/QUESTIONNAIRE.md#q8-how-should-the-user-interface-feel-style-tone-accessibility)
 9. [Q9. What are your performance or scalability expectations for the first year?](docs/QUESTIONNAIRE.md#q9-what-are-your-performance-or-scalability-expectations-for-the-first-year)
 10. [Q10. Budget, timeline, and post-launch maintenance — what's realistic?](docs/QUESTIONNAIRE.md#q10-budget-timeline-and-post-launch-maintenance-whats-realistic)
+11. [Structured JSON mirror of the questionnaire](docs/QUESTIONNAIRE.json) — machine-readable version for agents and tools
 
 ## How to use it
 
