@@ -14,8 +14,8 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "Dog-walkers struggle to track multiple clients; my app will auto-schedule routes for walkers with >10 dogs per day."
-- "University students can't find last-minute study rooms; the app aggregates real-time room availability."
+- Dog-walkers struggle to track multiple clients; my app will auto-schedule routes for walkers with >10 dogs per day.
+- University students can't find last-minute study rooms; the app aggregates real-time room availability.
 
 ### Q2. On which devices and platforms should the first version run?
 
@@ -23,9 +23,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "iOS and Android phones only—tablets and desktop later."
-- "Any modern browser; must work on low-end Chromebooks."
-- "Desktop VR headset (Meta Quest 3) plus a slim companion mobile app."
+- iOS and Android phones only—tablets and desktop later.
+- Any modern browser; must work on low-end Chromebooks.
+- Desktop VR headset (Meta Quest 3) plus a slim companion mobile app.
 
 ### Q3. Which scripting/programming language(s) do you prefer, and why?
 
@@ -33,10 +33,10 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- **Python** – "Rapid prototyping, huge AI libraries, fine if server-side only."
-- **JavaScript/TypeScript** – "Runs in browsers and Node.js, single language front-to-back."
-- **Kotlin** – "Modern, null-safe; I expect tight Android integration."
-- "No strong preference—recommend what fits my budget."
+- Python – "Rapid prototyping, huge AI libraries, fine if server-side only."
+- JavaScript/TypeScript – "Runs in browsers and Node.js, single language front-to-back."
+- Kotlin – "Modern, null-safe; I expect tight Android integration."
+- No strong preference—recommend what fits my budget.
 
 ### Q4. List the must-have features for the MVP (Minimum Viable Product)?
 
@@ -44,9 +44,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "User login with Google, basic profile, create/read/update/delete notes, and share a note via link."
-- "GPS route tracking, step counter, calorie estimate, and weekly summary email."
-- "Upload 1-minute video, auto-generate captions, allow simple trim, then publish."
+- User login with Google, basic profile, create/read/update/delete notes, and share a note via link.
+- GPS route tracking, step counter, calorie estimate, and weekly summary email.
+- Upload 1-minute video, auto-generate captions, allow simple trim, then publish.
 
 ### Q5. Which third-party services or APIs should we integrate with (if any)?
 
@@ -54,9 +54,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "Stripe for payments, Google Maps for geocoding, Twilio for SMS."
-- "No external APIs; everything must run offline (military use-case)."
-- "OpenAI for text generation + Cloudinary for media storage."
+- Stripe for payments, Google Maps for geocoding, Twilio for SMS.
+- No external APIs; everything must run offline (military use-case).
+- OpenAI for text generation + Cloudinary for media storage.
 
 ### Q6. How should data be stored and synced?
 
@@ -64,8 +64,8 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "Cloud-only, PostgreSQL on `Supabase`."
-- "Real-time collaboration—need Firebase `Firestore`-style live updates."
+- Cloud-only, PostgreSQL on Supabase.
+- Real-time collaboration—need Firebase Firestore-style live updates.
 
 ### Q7. What level of security, privacy, or compliance is required?
 
@@ -73,9 +73,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "Must be HIPAA-compliant; patient data encrypted in transit and at rest."
-- "Consumer social app—standard OAuth, no special compliance."
-- "European customers only—GDPR data-deletion workflow mandatory."
+- Must be HIPAA-compliant; patient data encrypted in transit and at rest.
+- Consumer social app—standard OAuth, no special compliance.
+- European customers only—GDPR data-deletion workflow mandatory.
 
 ### Q8. How should the user interface feel (style, tone, accessibility)?
 
@@ -83,9 +83,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "Minimalistic, monochrome, like Notion; AA accessibility at least."
-- "Playful neon cyber-punk with motion effects; `WCAG` can be AA except AAA contrast not needed."
-- "Enterprise dashboard: dense tables, light mode only, Excel import vibes."
+- Minimalistic, monochrome, like Notion; AA accessibility at least.
+- Playful neon cyber-punk with motion effects; WCAG can be AA except AAA contrast not needed.
+- Enterprise dashboard: dense tables, light mode only, Excel import vibes.
 
 ### Q9. What are your performance or scalability expectations for the first year?
 
@@ -93,9 +93,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "Pilot with 500 beta users; uptime 99% is fine."
-- "Expect viral spikes—handle 100k concurrent users for live trivia."
-- "Internal tool for 50 employees—latency under 1s, nothing fancy."
+- Pilot with 500 beta users; uptime 99% is fine.
+- Expect viral spikes—handle 100k concurrent users for live trivia.
+- Internal tool for 50 employees—latency under 1s, nothing fancy.
 
 ### Q10. Budget, timeline, and post-launch maintenance — what's realistic?
 
@@ -103,9 +103,9 @@ This 10-question framework helps define clear requirements for any software proj
 
 **Example answers:**
 
-- "$15k MVP budget, 3-month build, then $500/month for updates."
-- "Open-source passion project—volunteer devs, slow timeline."
-- "VC-backed: up to $250k this year, need v1 in 10 weeks, full-time dev retainer after."
+- $15k MVP budget, 3-month build, then $500/month for updates.
+- Open-source passion project—volunteer devs, slow timeline.
+- VC-backed: up to $250k this year, need v1 in 10 weeks, full-time dev retainer after.
 
 ---
 

@@ -17,8 +17,8 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Defines the core value proposition and primary users.
 
-- "Dog-walkers struggle to track multiple clients; my app will auto-schedule routes for walkers with >10 dogs per day."
-- "University students can't find last-minute study rooms; the app aggregates real-time room availability."
+- Dog-walkers struggle to track multiple clients; my app will auto-schedule routes for walkers with >10 dogs per day.
+- University students can't find last-minute study rooms; the app aggregates real-time room availability.
 
 **Your answer:**
 
@@ -28,9 +28,9 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Narrows the tech stack and design constraints.
 
-- "iOS and Android phones only—tablets and desktop later."
-- "Any modern browser; must work on low-end Chromebooks."
-- "Desktop VR headset (Meta Quest 3) plus a slim companion mobile app."
+- iOS and Android phones only—tablets and desktop later.
+- Any modern browser; must work on low-end Chromebooks.
+- Desktop VR headset (Meta Quest 3) plus a slim companion mobile app.
 
 **Your answer:**
 
@@ -40,10 +40,10 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Aligns with existing team skill, hosting options, and library ecosystems.
 
-- **Python** – "Rapid prototyping, huge AI libraries, fine if server-side only."
-- **JavaScript/TypeScript** – "Runs in browsers and Node.js, single language front-to-back."
-- **Kotlin** – "Modern, null-safe; I expect tight Android integration."
-- "No strong preference—recommend what fits my budget."
+- Python – "Rapid prototyping, huge AI libraries, fine if server-side only."
+- JavaScript/TypeScript – "Runs in browsers and Node.js, single language front-to-back."
+- Kotlin – "Modern, null-safe; I expect tight Android integration."
+- No strong preference—recommend what fits my budget.
 
 **Your answer:**
 
@@ -53,9 +53,9 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Prevents scope creep; anchors the first release.
 
-- "User login with Google, basic profile, create/read/update/delete notes, and share a note via link."
-- "GPS route tracking, step counter, calorie estimate, and weekly summary email."
-- "Upload 1-minute video, auto-generate captions, allow simple trim, then publish."
+- User login with Google, basic profile, create/read/update/delete notes, and share a note via link.
+- GPS route tracking, step counter, calorie estimate, and weekly summary email.
+- Upload 1-minute video, auto-generate captions, allow simple trim, then publish.
 
 **Your answer:**
 
@@ -65,9 +65,9 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Determines licensing cost, data flow, and potential vendor lock-in.
 
-- "Stripe for payments, Google Maps for geocoding, Twilio for SMS."
-- "No external APIs; everything must run offline (military use-case)."
-- "OpenAI for text generation + Cloudinary for media storage."
+- Stripe for payments, Google Maps for geocoding, Twilio for SMS.
+- No external APIs; everything must run offline (military use-case).
+- OpenAI for text generation + Cloudinary for media storage.
 
 **Your answer:**
 
@@ -77,8 +77,8 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Guides database choice, offline strategy, and security controls.
 
-- "Cloud-only, PostgreSQL on `Supabase`."
-- "Real-time collaboration—need Firebase `Firestore`-style live updates."
+- Cloud-only, PostgreSQL on Supabase.
+- Real-time collaboration—need Firebase Firestore-style live updates.
 
 **Your answer:**
 
@@ -88,9 +88,9 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Impacts architecture, hosting region, and audit features.
 
-- "Must be HIPAA-compliant; patient data encrypted in transit and at rest."
-- "Consumer social app—standard OAuth, no special compliance."
-- "European customers only—GDPR data-deletion workflow mandatory."
+- Must be HIPAA-compliant; patient data encrypted in transit and at rest.
+- Consumer social app—standard OAuth, no special compliance.
+- European customers only—GDPR data-deletion workflow mandatory.
 
 **Your answer:**
 
@@ -98,9 +98,9 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Sets design language and accessibility targets.
 
-- "Minimalistic, monochrome, like Notion; AA accessibility at least."
-- "Playful neon cyber-punk with motion effects; `WCAG` can be AA except AAA contrast not needed."
-- "Enterprise dashboard: dense tables, light mode only, Excel import vibes."
+- Minimalistic, monochrome, like Notion; AA accessibility at least.
+- Playful neon cyber-punk with motion effects; WCAG can be AA except AAA contrast not needed.
+- Enterprise dashboard: dense tables, light mode only, Excel import vibes.
 
 **Your answer:**
 
@@ -110,9 +110,9 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Determines hosting tier, caching, and cost planning.
 
-- "Pilot with 500 beta users; uptime 99% is fine."
-- "Expect viral spikes—handle 100k concurrent users for live trivia."
-- "Internal tool for 50 employees—latency under 1s, nothing fancy."
+- Pilot with 500 beta users; uptime 99% is fine.
+- Expect viral spikes—handle 100k concurrent users for live trivia.
+- Internal tool for 50 employees—latency under 1s, nothing fancy.
 
 **Your answer:**
 
@@ -122,9 +122,9 @@ Do not invent requirements the user did not state.**
 
 **Why we ask:** Aligns scope with resources and clarifies ongoing responsibilities.
 
-- "$15k MVP budget, 3-month build, then $500/month for updates."
-- "Open-source passion project—volunteer devs, slow timeline."
-- "VC-backed: up to $250k this year, need v1 in 10 weeks, full-time dev retainer after."
+- $15k MVP budget, 3-month build, then $500/month for updates.
+- Open-source passion project—volunteer devs, slow timeline.
+- VC-backed: up to $250k this year, need v1 in 10 weeks, full-time dev retainer after.
 
 **Your answer:**
 

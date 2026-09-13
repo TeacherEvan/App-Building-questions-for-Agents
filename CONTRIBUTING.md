@@ -31,7 +31,7 @@ has wide downstream impact — please read this guide first.
 - Headings: `### Q<N>. <Title Case Question>?`
 - Question text must end with a question mark.
 - One `**Why we ask:**` line directly under the heading.
-- 2–3 example answers, in plain prose, prefixed with `- "..."` (or `- **Label** – "..."`).
+- 2–3 example answers, in plain prose, prefixed with `- ` (optionally `- **Label** – ` for labeled examples).
 - One blank line between questions; no trailing whitespace.
 
 ## Licence
