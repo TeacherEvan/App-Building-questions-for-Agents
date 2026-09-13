@@ -6,6 +6,8 @@ A 10-question discovery questionnaire for scoping a new application project.
 
 This repo's primary artifact is the questionnaire: [`docs/QUESTIONNAIRE.md`](docs/QUESTIONNAIRE.md). It is a lightweight requirements-discovery framework — answer the ten questions to align stakeholders and guide early technical decisions (platform, language, must-have MVP features, integrations, data, security, UX tone, scale, and budget/timeline). The legacy root-level copy [`10 Questions to help you build an app.md`](./10%20Questions%20to%20help%20you%20build%20an%20app.md) is kept for backward-compatible inbound links only.
 
+For a ready-to-paste agent scoping prompt, see [`docs/AGENT_SCOPING_PROMPT.md`](docs/AGENT_SCOPING_PROMPT.md).
+
 ## Contents
 
 1. [Q1. What problem does your application solve, and who feels that pain the most?](docs/QUESTIONNAIRE.md#q1-what-problem-does-your-application-solve-and-who-feels-that-pain-the-most)
@@ -19,13 +21,22 @@ This repo's primary artifact is the questionnaire: [`docs/QUESTIONNAIRE.md`](doc
 9. [Q9. What are your performance or scalability expectations for the first year?](docs/QUESTIONNAIRE.md#q9-what-are-your-performance-or-scalability-expectations-for-the-first-year)
 10. [Q10. Budget, timeline, and post-launch maintenance — what's realistic?](docs/QUESTIONNAIRE.md#q10-budget-timeline-and-post-launch-maintenance-whats-realistic)
 11. [Structured JSON mirror of the questionnaire](docs/QUESTIONNAIRE.json) — machine-readable version for agents and tools
+12. [Agent App-Scoping Prompt](docs/AGENT_SCOPING_PROMPT.md) — ready-to-paste prompt wrapping all 10 questions with a structured output contract
 
 ## How to use it
+
+### For humans
 
 1. Open the questionnaire file.
 2. For each question, pick the example answer closest to your situation — or write your own.
 3. Drop your answers into a shared doc, then derive functional + non-functional requirements.
 4. Use the "Deliverables Checklist" at the bottom of the questionnaire as a starting point for downstream artifacts (architecture diagram, roadmap, budget breakdown, testing strategy, deployment plan).
+
+### For AI agents
+
+1. Open [`docs/AGENT_SCOPING_PROMPT.md`](docs/AGENT_SCOPING_PROMPT.md) and paste it into your model along with your answers to the ten questions.
+2. The prompt includes the full questionnaire (Q1–Q10) plus an output contract with ten named sections (Problem, Platforms, Language, MVP, Integrations, Data, Security, UX, Scale, Budget) and a Roadmap section.
+3. The model will return a structured scoping document you can hand to a builder or feed into downstream agentic workflows.
 
 ## Repo contents
 
@@ -37,6 +48,8 @@ This repo's primary artifact is the questionnaire: [`docs/QUESTIONNAIRE.md`](doc
 | `README.md` | This file — entry point: title, contents, links, how to use. |
 | `.snapshots/` | Third-party configuration and docs for the **Snapshots-for-AI** VSCode/Cursor extension by [GBTI Network](https://gbti.network). It is auto-managed by the extension; this repo does not own or maintain it. |
 | `docs/QUESTIONNAIRE.md` | Canonical 10-question discovery framework. |
+| `docs/QUESTIONNAIRE.json` | Structured JSON mirror of the canonical framework (agent-facing). |
+| `docs/AGENT_SCOPING_PROMPT.md` | Ready-to-paste agent scoping prompt wrapping the 10 questions with an output contract. |
 | `docs/INDEX.md` | Documentation index: every markdown file in this repo, with a one-line summary. |
 | `docs/.scratch-audit/` | Internal V2 governance run artifacts (gitignored, ephemeral). |
 

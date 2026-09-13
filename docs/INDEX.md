@@ -13,6 +13,7 @@ Every markdown file in this repository, with a one-line summary.
 
 - [`docs/QUESTIONNAIRE.md`](QUESTIONNAIRE.md) — canonical 10-question framework
 - [`docs/QUESTIONNAIRE.json`](QUESTIONNAIRE.json) — structured JSON mirror of the canonical framework (agent-facing)
+- [`docs/AGENT_SCOPING_PROMPT.md`](AGENT_SCOPING_PROMPT.md) — ready-to-paste agent scoping prompt wrapping the 10 questions with an output contract
 - [`docs/INDEX.md`](INDEX.md) — this file
 
 ## .snapshots/
